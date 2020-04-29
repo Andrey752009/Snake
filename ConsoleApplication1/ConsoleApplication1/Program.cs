@@ -27,7 +27,8 @@ namespace ConsoleApplication1
         public static int SnakeLength=3;
         static void Main(string[] args)
         {
-            
+
+            Console.WriteLine();
             Console.SetBufferSize(80, 25);
             ConsoleKeyInfo cki;
             Console.WriteLine(Console.KeyAvailable);
